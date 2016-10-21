@@ -1,0 +1,38 @@
+<html>
+<head>
+  <script>
+  window.onload = function(){
+    console.log("javascript alert test");
+    var apple=3;
+    var myArray = new Array();
+    myArray[0] = "사과";
+    myArray[1] = "orange";
+    console.log(myArray);
+
+    var yourArray = ["apple","pear","orange"];
+    console.log(yourArray);
+
+    for(var i=0; i<yourArray.length;i++){
+      if(yourArray[i]=="apple")
+      console.log(yourArray[i]);
+    }
+
+    if(10=="10"){
+      console.log("타입확인 안한결과 성공!");
+    } else{
+      console.log("타입확인 안한결과 실패!");
+    }
+
+    if(10==="10"){
+      console.log("타입확인 성공!");
+    } else{
+      console.log("타입확인 실패!");
+    }
+
+    document.write(apple);
+
+  }
+  </script>
+</head>
+<body>
+</body>
